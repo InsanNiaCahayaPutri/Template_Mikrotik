@@ -4,7 +4,6 @@ const usernameInput = document.querySelector('#username');
 const usernameLabel = document.querySelector('#username-label');
 const passwordField = document.querySelector('.password-box');
 const passwordLabel = document.querySelector('.password-label');
-const hint = document.querySelector('#form-hint');
 const tabs = document.querySelectorAll('.login-tab');
 const loginForm = document.querySelector('form[name="login"]');
 
@@ -23,9 +22,6 @@ function setLoginMode(mode) {
   usernameLabel.textContent = voucher ? 'Kode voucher' : 'Username';
   usernameInput.placeholder = voucher ? 'Masukkan kode voucher' : 'Masukkan username';
   if (voucher) passwordInput.value = usernameInput.value;
-  hint.textContent = voucher
-    ? 'Kode voucher biasanya tertera pada struk pembelian.'
-    : 'Masukkan username dan password akun hotspot kamu.';
 }
 
 tabs.forEach((tab) => tab.addEventListener('click', () => setLoginMode(tab.dataset.mode)));

@@ -44,3 +44,26 @@ body{min-width:320px;min-height:100vh;margin:0}
 .connection-details{margin:18px 0 15px;padding:3px 12px;background:#f5f9fa;border:1px solid #e7eef0;border-radius:9px;text-align:left}
 .connection-details>div{min-height:36px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid #e7eef0;font-size:10px}.connection-details>div:last-child{border-bottom:0}.connection-details span{color:#7d8b92}.connection-details b{color:#30444b;font-weight:700}.online-icon{background:linear-gradient(145deg,#21bf9b,#07927d)}.online-dot{display:inline-block;width:6px;height:6px;margin-right:4px;background:#20b78e;border-radius:50%;vertical-align:1px}.demo-notice{margin:13px 0 0;color:#929ba1;font-size:8px;line-height:1.4}
 @media(max-width:600px){.login-page,.utility-page{background-attachment:scroll;background-position:center center}}
+.login-page,.utility-page{background-image:linear-gradient(135deg,rgba(3,42,56,.40),rgba(3,54,68,.45)),url('karimunjawa.jpg');background-position:center 58%;}
+.login-card{background:linear-gradient(145deg,rgba(6,58,69,.89),rgba(5,96,106,.82));border:1px solid rgba(208,246,244,.30);box-shadow:0 24px 75px rgba(0,36,46,.34);backdrop-filter:blur(14px);color:#f4ffff}
+.login-card h1{color:#f4ffff}.network-name{color:#a8eee8}.login-description{color:rgba(232,250,250,.76)}
+.login-tabs{background:rgba(0,37,49,.34);border:1px solid rgba(208,246,244,.12)}
+.login-tab{color:rgba(231,250,250,.72)}.login-tab.is-active{color:#075a64;background:linear-gradient(135deg,#d9f9f2,#a8e8e5);box-shadow:0 3px 12px rgba(0,30,41,.2)}
+.field-label{color:#e0f6f4}
+.input-box input{color:#f3ffff;background:rgba(8,42,52,.38);border-color:rgba(211,246,244,.28)}
+.input-box input::placeholder{color:rgba(232,250,250,.56)}.input-box input:focus{background:rgba(8,42,52,.55);border-color:#7de1d7;box-shadow:0 0 0 3px rgba(125,225,215,.18)}
+.input-box>svg{stroke:#b4dfdd}.show-password{color:#9be4df}
+.connect-button,.utility-button{color:#064a55;background:linear-gradient(105deg,#c4f5ea,#8edcd8 55%,#67cbd0);box-shadow:0 8px 20px rgba(0,36,48,.22)}
+.login-error{margin-top:0}.photo-credit{margin:15px 0 0;color:rgba(225,245,245,.62);font-size:7px;line-height:1.35}.photo-credit a{color:rgba(225,245,245,.73);text-decoration:none}.photo-credit a:hover{text-decoration:underline}
+.connection-details{background:rgba(6,48,58,.32);border-color:rgba(209,244,242,.16)}.connection-details>div{border-color:rgba(209,244,242,.14)}.connection-details span{color:rgba(232,250,250,.68)}.connection-details b{color:#f1ffff}.demo-notice{color:rgba(232,250,250,.62)}
+.state-icon{color:#07545d;background:linear-gradient(145deg,#c4f5ea,#67cbd0)}
+@media(max-width:600px){.login-page,.utility-page{background-position:center 50%;}}
+.login-page,.utility-page{background-position:center center}
+.login-card{background:linear-gradient(145deg,rgba(4,48,70,.88),rgba(5,78,99,.84));border-color:rgba(194,239,241,.30);box-shadow:0 24px 75px rgba(0,34,57,.34)}
+.brand-lockup{display:flex;align-items:center;justify-content:center;gap:13px;margin:0 auto 22px}
+.wifi-logo{width:58px;height:58px;margin:0;flex:none;background:linear-gradient(145deg,#22b9c5,#087d9b 70%,#075d80);border:1px solid rgba(220,255,252,.34);border-radius:17px}
+.brand-copy{text-align:left}
+.network-name{margin:0;color:#f5ffff;font-size:19px;font-weight:800;line-height:1.05;letter-spacing:.045em;white-space:nowrap}
+.network-name span{display:block;color:#a6ece4}
+.login-page .photo-credit{margin-top:15px}
+@media(max-width:600px){.login-page{background-position:center center}}
