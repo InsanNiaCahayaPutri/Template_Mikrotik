@@ -5,11 +5,11 @@ body{min-width:320px;min-height:100vh;margin:0}
 .login-page,.utility-page{display:grid;place-items:center;padding:24px;background-color:#d8c8f2;background-image:linear-gradient(135deg,rgba(74,51,111,.12),rgba(154,75,111,.08)),url('wallpaper-template3.svg');background-position:center;background-size:cover;background-attachment:fixed}
 .login-card{position:relative;width:min(100%,390px);padding:31px 31px 21px;text-align:center;background:linear-gradient(155deg,rgba(255,250,254,.96),rgba(255,240,248,.95));border:1px solid rgba(255,255,255,.92);border-radius:29px;box-shadow:0 25px 75px rgba(81,51,101,.27),0 5px 18px rgba(229,148,177,.16);backdrop-filter:blur(12px);animation:pop-in .42s cubic-bezier(.2,.8,.2,1) both}
 .login-card:before{position:absolute;top:10px;left:50%;width:42px;height:5px;content:"";transform:translateX(-50%);background:#f1c6d6;border-radius:10px}
-.welcome-header{margin:0 0 21px}
-.welcome-charm{width:52px;height:52px;margin:0 auto 12px;display:grid;place-items:center;color:#e58ba7;background:linear-gradient(145deg,#ffe3ed,#f9cadd);border:1px solid #fff;border-radius:18px;box-shadow:0 7px 16px rgba(196,104,138,.17);transform:rotate(-5deg)}
+.welcome-header{margin:0 0 23px}
+.welcome-charm{width:46px;height:46px;margin:0 auto 11px;display:grid;place-items:center;color:#e58ba7;background:linear-gradient(145deg,#ffe3ed,#f9cadd);border:1px solid #fff;border-radius:16px;box-shadow:0 7px 16px rgba(196,104,138,.17);transform:rotate(-5deg)}
 .welcome-charm svg{width:31px;height:31px;overflow:visible}
-.network-name{display:inline-flex;align-items:center;gap:5px;margin:0 0 10px;padding:6px 11px;color:#a35779;background:#fbe4ed;border:1px solid #f6d1de;border-radius:999px;font-size:9px;font-weight:800;letter-spacing:.11em}
-.network-name span{color:#d27594}
+.network-name{display:block;margin:0;color:#8f5578;font-size:clamp(23px,7vw,30px);font-weight:900;line-height:1.08;letter-spacing:-.055em;white-space:nowrap}
+.network-name span{color:#df789d}
 .login-card h1{margin:0;color:var(--ink);font-size:23px;font-weight:800;letter-spacing:-.04em}
 .login-description{margin:8px 0 0;color:#8a7d91;font-size:11px}
 .login-tabs{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin:0 0 17px;padding:4px;background:#f3e5ef;border:1px solid #eddae8;border-radius:13px}

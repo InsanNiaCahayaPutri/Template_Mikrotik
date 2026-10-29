@@ -11,9 +11,7 @@
   <main class="login-card">
     <header class="welcome-header">
       <div class="welcome-charm" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M24 4c3.7 0 4.5 8 7.3 9.6 2.8 1.6 10-1.8 12.6.8 2.6 2.6-.8 9.8.8 12.6C46.3 29.8 54 30.3 54 34c0 3.7-8 4.5-9.6 7.3-1.6 2.8 1.8 10-.8 12.6-2.6 2.6-9.8-.8-12.6.8C28.2 57.3 27.7 65 24 65c-3.7 0-4.5-8-7.3-9.6-2.8-1.6-10 1.8-12.6-.8-2.6-2.6.8-9.8-.8-12.6C1.7 39.2-6 38.7-6 35c0-3.7 8-4.5 9.6-7.3 1.6-2.8-1.8-10 .8-12.6 2.6-2.6 9.8.8 12.6-.8C19.8 11.7 20.3 4 24 4Z" transform="translate(6 -10) scale(.75)" fill="currentColor"/><path d="m24 13 3.3 7.7 8.4.7-6.4 5.5 1.9 8.1-7.2-4.3-7.2 4.3 1.9-8.1-6.4-5.5 8.4-.7L24 13Z" fill="#fff8e7"/></svg></div>
-      <p class="network-name">INSANMOY <span>CONNECT</span></p>
-      <h1>Hai, selamat datang!</h1>
-      <p class="login-description">Masuk sebentar, lalu lanjut berselancar ✿</p>
+      <h1 class="network-name">INSANMOY <span>CONNECT</span></h1>
     </header>
 
     $(if error)
@@ -47,7 +45,6 @@
     $(if trial == 'yes')
     <a class="trial-link" href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">Coba gratis</a>
     $(endif)
-    <p class="photo-credit">INSANMOY CONNECT</p>
   </main>
 
   $(if chap-id)
