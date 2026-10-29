@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#d67652">
+  <title>Status Koneksi | INSANMOY CONNECT</title>
+  <link rel="stylesheet" href="style.css">
+  $(if refresh-timeout)
+  <meta http-equiv="refresh" content="$(refresh-timeout-secs)">
+  $(endif)
+</head>
+<body class="utility-page">
+  <main class="utility-card">
+    <a class="utility-brand" href="$(link-status)"><span class="brand-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M2.5 8.8a14.2 14.2 0 0 1 19 0M5.8 12.2a9.2 9.2 0 0 1 12.4 0m-9 3.5a5.1 5.1 0 0 1 5.6 0"/><circle cx="12" cy="19" r="1" fill="currentColor"/></svg></span><span><b>INSANMOY<span>.CONNECT</span></b><small>YOUR CONNECTION</small></span></a>
+    <div class="utility-status"><i></i> TERHUBUNG</div>
+    <h1>You're online,<br><span>$(username)</span></h1>
+    <p class="utility-intro">Koneksi Wi-Fi kamu aktif. Selamat menikmati internet.</p>
+    <div class="detail-list">
+      <div class="detail-row"><span>Status</span><b>Connected</b></div>
+      <div class="detail-row"><span>IP address</span><b>$(ip)</b></div>
+      <div class="detail-row"><span>MAC address</span><b>$(mac)</b></div>
+      <div class="detail-row"><span>Durasi</span><b>$(uptime)</b></div>
+      <div class="detail-row"><span>Data digunakan</span><b>$(bytes-in-nice) / $(bytes-out-nice)</b></div>
+      $(if session-time-left)
+      <div class="detail-row"><span>Sisa waktu</span><b>$(session-time-left)</b></div>
+      $(endif)
+    </div>
+    <a class="utility-button" href="$(link-logout)">Putuskan koneksi <span>↗</span></a>
+    <p class="utility-foot">INSANMOY CONNECT</p>
+  </main>
+</body>
+</html>
+
+

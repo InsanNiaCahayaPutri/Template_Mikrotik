@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dbcdf7"/><stop offset=".55" stop-color="#f8d8e7"/><stop offset="1" stop-color="#ffe6c9"/></linearGradient>
+    <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#a9d4ba"/><stop offset="1" stop-color="#79b9a7"/></linearGradient>
+    <linearGradient id="rainbow" x2="1" y2="0"><stop stop-color="#f4a5bc"/><stop offset=".35" stop-color="#f9cf91"/><stop offset=".68" stop-color="#a9d9c4"/><stop offset="1" stop-color="#a9b9e6"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="24"/></filter>
+    <g id="cloud" fill="#fffaf5"><ellipse cx="0" cy="15" rx="88" ry="32"/><circle cx="-43" cy="3" r="36"/><circle cx="6" cy="-19" r="49"/><circle cx="52" cy="1" r="34"/></g>
+    <g id="star" fill="#fff8dd"><path d="M0-18 4-5 18 0 4 5 0 18-4 5-18 0-4-5z"/></g>
+    <g id="flower"><circle r="5" fill="#ffd782"/><g fill="#fff4f7"><ellipse cy="-10" rx="5" ry="8"/><ellipse cy="10" rx="5" ry="8"/><ellipse cx="-10" rx="8" ry="5"/><ellipse cx="10" rx="8" ry="5"/></g></g>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#sky)"/>
+  <circle cx="1280" cy="250" r="93" fill="#ffe7a9" opacity=".92"/>
+  <circle cx="1280" cy="250" r="145" fill="#ffe7a9" opacity=".37" filter="url(#glow)"/>
+  <path d="M490 535a310 310 0 0 1 620 0" fill="none" stroke="url(#rainbow)" stroke-width="36" stroke-linecap="round" opacity=".78"/>
+  <path d="M535 535a265 265 0 0 1 530 0" fill="none" stroke="#fff5ec" stroke-width="20" stroke-linecap="round" opacity=".8"/>
+  <use href="#cloud" x="300" y="360" transform="scale(1.1)" opacity=".96"/>
+  <use href="#cloud" x="1170" y="465" transform="scale(.78)" opacity=".9"/>
+  <use href="#cloud" x="720" y="245" transform="scale(.52)" opacity=".82"/>
+  <g fill="#fff8dd" opacity=".9"><use href="#star" x="215" y="205"/><use href="#star" x="960" y="210" transform="scale(.7)"/><use href="#star" x="1450" y="435" transform="scale(.8)"/><use href="#star" x="450" y="570" transform="scale(.65)"/><use href="#star" x="1370" y="670" transform="scale(.6)"/></g>
+  <g fill="none" stroke="#fffaf5" stroke-width="5" stroke-linecap="round" opacity=".76"><path d="M570 175q15-14 30 0m9 0q15-14 30 0"/><path d="M1035 590q13-12 26 0m8 0q13-12 26 0"/></g>
+  <path d="M0 755q180-136 390-42t360-7q230-136 438-22t412 6v510H0z" fill="#bbd9c0" opacity=".84"/>
+  <path d="M0 840q198-125 405-33t368-9q222-124 440-23t387 2v423H0z" fill="url(#hill)"/>
+  <path d="M0 1010q180-104 376-32t385-8q195-100 390-22t282 9q100-40 167-2v243H0z" fill="#6ba995" opacity=".62"/>
+  <g opacity=".93"><use href="#flower" x="182" y="872" transform="scale(1.15)"/><use href="#flower" x="390" y="1025" transform="scale(.8)"/><use href="#flower" x="1360" y="885" transform="scale(1.2)"/><use href="#flower" x="1160" y="1065" transform="scale(.72)"/><use href="#flower" x="780" y="935" transform="scale(.65)"/></g>
+  <g fill="#f6f1dc" opacity=".88"><circle cx="85" cy="1010" r="8"/><circle cx="314" cy="900" r="7"/><circle cx="530" cy="1100" r="9"/><circle cx="980" cy="1030" r="7"/><circle cx="1510" cy="1040" r="9"/><circle cx="1250" cy="940" r="6"/></g>
+  <g fill="none" stroke="#fff8ed" stroke-width="8" stroke-linecap="round" opacity=".58"><path d="M80 750q55-22 110 0m22 0q46-19 92 0"/><path d="M1110 745q48-20 96 0m22 0q60-24 120 0"/></g>
+</svg>
