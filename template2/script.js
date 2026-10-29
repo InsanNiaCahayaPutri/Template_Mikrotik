@@ -52,7 +52,7 @@ if (previewMode) {
   }
   document.querySelector('.login-error')?.remove();
   document.querySelector('.trial-link')?.remove();
-  document.querySelector('.photo-credit')?.setAttribute('title', 'Wallpaper pantai Karimunjawa');
+  document.querySelector('.photo-credit')?.setAttribute('title', 'Ilustrasi laut khusus Template 2');
 
   loginForm.addEventListener('submit', (event) => {
     event.preventDefault();
