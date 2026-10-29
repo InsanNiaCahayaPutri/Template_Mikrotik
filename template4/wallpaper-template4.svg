@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="night" x2="1" y2="1"><stop stop-color="#160f24"/><stop offset=".48" stop-color="#351238"/><stop offset="1" stop-color="#140d22"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#e93b91" stop-opacity=".64"/><stop offset="1" stop-color="#e93b91" stop-opacity="0"/></radialGradient>
+    <linearGradient id="chrome" x2="1" y2="1"><stop stop-color="#ffe4fa"/><stop offset=".36" stop-color="#f078bd"/><stop offset=".68" stop-color="#fff0fb"/><stop offset="1" stop-color="#b43d8b"/></linearGradient>
+    <pattern id="spots" width="130" height="115" patternUnits="userSpaceOnUse">
+      <path d="M17 24q16-17 33-2 8 10-5 21-20 11-29-2-5-8 1-17Zm66 6q12-13 26-4 7 8-2 17-17 8-25-2-5-5 1-11Zm-39 58q10-15 25-7 10 7 2 17-12 12-24 5-9-5-3-15Zm71-8q11-11 22-3 5 7-2 15-13 8-20-1-4-5 0-11Z" fill="none" stroke="#f06db2" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="65" cy="20" r="3" fill="#f06db2"/><circle cx="20" cy="80" r="3" fill="#f06db2"/>
+    </pattern>
+    <g id="twinkle"><path d="M0-35 7-8 35 0 7 8 0 35-7 8-35 0-7-8z" fill="url(#chrome)"/><circle r="4" fill="#fff"/></g>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#night)"/>
+  <ellipse cx="330" cy="270" rx="440" ry="380" fill="url(#glow)"/>
+  <ellipse cx="1330" cy="900" rx="520" ry="440" fill="url(#glow)" opacity=".72"/>
+  <path d="M0 0h450L0 450zm1600 1200h-470l470-470z" fill="url(#spots)" opacity=".32"/>
+  <path d="M0 0h450L0 450zm1600 1200h-470l470-470z" fill="none" stroke="#f06db2" stroke-opacity=".34" stroke-width="3"/>
+  <g opacity=".9">
+    <use href="#twinkle" x="220" y="650" transform="scale(1.15)"/>
+    <use href="#twinkle" x="1290" y="340" transform="scale(.8)"/>
+    <use href="#twinkle" x="1400" y="730" transform="scale(.58)"/>
+    <use href="#twinkle" x="460" y="220" transform="scale(.52)"/>
+    <use href="#twinkle" x="1080" y="1030" transform="scale(.62)"/>
+  </g>
+  <g fill="none" stroke="url(#chrome)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".88">
+    <path d="M770 235c-50-56-137 13 0 119 137-106 50-175 0-119Z"/>
+    <path d="M370 930c-30-34-82 8 0 72 82-64 30-106 0-72Z" opacity=".68"/>
+    <path d="M1270 590c-23-27-65 6 0 58 65-52 23-85 0-58Z" opacity=".68"/>
+  </g>
+  <g fill="#f9c9e7" opacity=".78">
+    <circle cx="620" cy="390" r="4"/><circle cx="980" cy="340" r="5"/><circle cx="1110" cy="560" r="4"/><circle cx="560" cy="750" r="5"/><circle cx="1010" cy="880" r="4"/><circle cx="280" cy="430" r="5"/><circle cx="1450" cy="510" r="4"/><circle cx="830" cy="1000" r="5"/><circle cx="700" cy="160" r="4"/>
+  </g>
+  <g fill="none" stroke="#f9c9e7" stroke-width="3" stroke-linecap="round" opacity=".58"><path d="M90 560h38m-19-19v38"/><path d="M1460 170h34m-17-17v34"/><path d="M890 690h28m-14-14v28"/><path d="M280 1080h36m-18-18v36"/></g>
+</svg>
