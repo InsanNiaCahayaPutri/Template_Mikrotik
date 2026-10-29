@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#5556d8">
+  <title>Logout | Nusa Wi-Fi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="utility-page">
+  <main class="utility-card logout-card">
+    <a class="utility-brand" href="$(link-login)"><span class="brand-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M2.5 8.8a14.2 14.2 0 0 1 19 0M5.8 12.2a9.2 9.2 0 0 1 12.4 0m-9 3.5a5.1 5.1 0 0 1 5.6 0"/><circle cx="12" cy="19" r="1" fill="currentColor"/></svg></span><span><b>INSANMOY<span>.CONNECT</span></b><small>SEE YOU AGAIN</small></span></a>
+    <div class="logout-icon" aria-hidden="true">✓</div>
+    <div class="utility-status logged-out">SESI SELESAI</div>
+    <h1>You're logged out,<br><span>$(username)</span></h1>
+    <p class="utility-intro">Terima kasih sudah menggunakan Nusa Wi-Fi.</p>
+    <div class="detail-list">
+      <div class="detail-row"><span>Username</span><b>$(username)</b></div>
+      <div class="detail-row"><span>IP address</span><b>$(ip)</b></div>
+      <div class="detail-row"><span>MAC address</span><b>$(mac)</b></div>
+      <div class="detail-row"><span>Durasi sesi</span><b>$(uptime)</b></div>
+      <div class="detail-row"><span>Data digunakan</span><b>$(bytes-in-nice) / $(bytes-out-nice)</b></div>
+    </div>
+    <a class="utility-button" href="$(link-login)">Masuk kembali <span>→</span></a>
+    <p class="utility-foot">INSANMOY CONNECT <i>•</i> Powered by MikroTik</p>
+  </main>
+</body>
+</html>
