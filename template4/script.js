@@ -72,7 +72,7 @@ if (previewMode) {
         <div><span>Durasi</span><b class="session-time">00:00:00</b></div>
       </div>
       <button class="connect-button disconnect-button" type="button">Logout</button>
-      <p class="demo-notice">Ini simulasi pratinjau. Login sungguhan diverifikasi oleh MikroTik.</p>
+      <p class="demo-notice">INSANMOY CONNECT · Wi-Fi Hotspot</p>
     `;
     const timer = window.setInterval(() => {
       const elapsed = Math.floor((Date.now() - start) / 1000);
@@ -90,7 +90,7 @@ if (previewMode) {
         <h1>Kamu sudah logout</h1>
         <p class="login-description">Sesi pratinjau sudah berakhir.</p>
         <button class="connect-button" type="button">Masuk kembali</button>
-        <p class="demo-notice">Ini simulasi pratinjau. Login sungguhan diverifikasi oleh MikroTik.</p>
+        <p class="demo-notice">INSANMOY CONNECT · Wi-Fi Hotspot</p>
       `;
       card.querySelector('button').addEventListener('click', () => window.location.reload());
     });
